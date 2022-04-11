@@ -7,7 +7,7 @@ export const projectsData = [
 		tags: ["javascript", "HTML","CSS"],
 		logos: ["fab fa-js","fab fa-html5" , "fab fa-css3"],
 		code: "https://github.com/ketanyadav8807/Travel_Clone",
-		demo: "travel-project-by-team.netlify.app/",
+		demo: "https://travel-project-by-team.netlify.app/",
 		image: "/Travelclone.png",
 	},
 	{
@@ -18,7 +18,7 @@ export const projectsData = [
 		tags: ["React", "MUI","Context-Api"],
 		logos: ["fab fa-react","fab fa-node","fab fa-github","fab fa-html5"],
 		code: "https://github.com/sumant236/Unacademy-Clone",
-		demo: "unacademy-clone-site.netlify.app/",
+		demo: "https://unacademy-clone-site.netlify.app/",
 		image: "Unacademy.png",
 	},
 	
