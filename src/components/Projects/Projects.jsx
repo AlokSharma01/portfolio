@@ -48,16 +48,18 @@ function Projects() {
 		window.innerWidth < 993 ? setDirection(true) : setDirection(false);
 	});
 
+	//slider for showing project cards
 	const handlePrev = () => {
-		if (next !== 0) {
-			setNext(next - 1);
-		}
+
+		// if (next !== 0) {
+		// 	setNext(next - 1);
+		// }
 	};
 	const handleNext = () => {
-		if (next !== 3) {
-			// if you want to increase size increse this number.
-			setNext(next + 1);
-		}
+		// if (next !== 3) {
+		// 	// if you want to increase size increse this number.
+		// 	setNext(next + 1);
+		// }
 	};
 
 	console.log(next);
