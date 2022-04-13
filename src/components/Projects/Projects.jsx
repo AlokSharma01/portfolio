@@ -51,15 +51,15 @@ function Projects() {
 	//slider for showing project cards
 	const handlePrev = () => {
 
-		// if (next !== 0) {
-		// 	setNext(next - 1);
-		// }
+		if (next !== 0) {
+			setNext(next - 1);
+		}
 	};
 	const handleNext = () => {
-		// if (next !== 3) {
-		// 	// if you want to increase size increse this number.
-		// 	setNext(next + 1);
-		// }
+		if (next !== 3) {
+			// if you want to increase size increse this number.
+			setNext(next + 1);
+		}
 	};
 
 	console.log(next);
@@ -77,7 +77,7 @@ function Projects() {
 					</div>
 					<div className="projects--body">
 						<div className="projects--bodyContainer">
-							<button
+							{/* <button
 								style={{
 									borderRadius: "50%",
 									width: "39px",
@@ -119,7 +119,7 @@ function Projects() {
 										/>
 									</svg>
 								)}
-							</button>
+							</button> */}
 							{projectsData
 								.slice(0 + next, 3 + next)
 								.map((project) => (
@@ -136,7 +136,7 @@ function Projects() {
 										image={project.image}
 									/>
 								))}
-							<button
+							{/* <button
 								style={{
 									borderRadius: "50%",
 									width: "39px",
@@ -176,7 +176,7 @@ function Projects() {
 										/>
 									</svg>
 								)}
-							</button>
+							</button> */}
 						</div>
 					</div>
 				</div>
